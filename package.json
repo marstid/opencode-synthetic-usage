@@ -1,0 +1,40 @@
+{
+  "name": "opencode-synthetic-usage",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./tui": {
+      "import": "./src/index.tsx"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.4.0"
+  },
+  "peerDependencies": {
+    "@opentui/solid": ">=0.1.97",
+    "@opentui/core": ">=0.1.97"
+  },
+  "peerDependenciesMeta": {
+    "@opentui/solid": {
+      "optional": true
+    },
+    "@opentui/core": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@opentui/solid": "0.1.97",
+    "@opentui/core": "0.1.97",
+    "typescript": "^5.7.0",
+    "@types/bun": "^1.2.0"
+  },
+  "engines": {
+    "opencode": ">=1.0.0"
+  }
+}
