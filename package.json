@@ -1,6 +1,17 @@
 {
   "name": "opencode-synthetic-usage",
   "version": "1.0.0",
+  "description": "OpenCode TUI plugin for Synthetic API quota usage",
+  "repository": {
+    "url": "https://github.com/marstid/opencode-synthetic-usage"
+  },
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "synthetic",
+    "tui-plugin"
+  ],
   "type": "module",
   "exports": {
     "./tui": {

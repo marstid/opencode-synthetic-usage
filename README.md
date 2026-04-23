@@ -13,7 +13,7 @@ Add to your `tui.json`:
 {
   "$schema": "https://opencode.ai/tui.json",
   "plugin": [
-    ["marstid/opencode-synthetic-usage", {}]
+    ["opencode-synthetic-usage", {}]
   ]
 }
 ```
@@ -31,7 +31,7 @@ Options are passed as the second element of the plugin tuple:
 ```json
 {
   "plugin": [
-    ["marstid/opencode-synthetic-usage", { "showSearchHourly": false, "refreshMs": 30000 }]
+    ["opencode-synthetic-usage", { "showSearchHourly": false, "refreshMs": 30000 }]
   ]
 }
 ```
