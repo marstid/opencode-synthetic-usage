@@ -4,7 +4,10 @@ An [OpenCode](https://opencode.ai) TUI plugin that displays your [Synthetic](htt
 
 ## Install
 
-Add to your `tui.json` (global: `~/.oc/tui.json` or project-level):
+Add to your `tui.json`:
+
+- **Global**: `~/.config/opencode/tui.json`
+- **Project**: `tui.json` in your project root
 
 ```json
 {
