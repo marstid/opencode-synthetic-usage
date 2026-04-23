@@ -2,6 +2,8 @@
 
 An [OpenCode](https://opencode.ai) TUI plugin that displays your [Synthetic](https://synthetic.new) quota usage in the sidebar.
 
+![Synthetic usage sidebar](all.png)
+
 ## Install
 
 Add to your `tui.json`:
